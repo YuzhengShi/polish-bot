@@ -145,6 +145,9 @@ if "responses" in st.session_state:
                     value=body,
                     height=200,
                     key=f"response_{i}")
+        if st.button(f"Copy Response", key=f"copy_button_{i}"):
+            pyperclip.copy(body)
+            st.success(f"Response {i} copied to clipboard!")
 
     # Download functionality
     all_responses = "\n\n".join([
