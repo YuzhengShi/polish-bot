@@ -29,7 +29,7 @@ def generate_polite_response(user_input, content_type, recipient_type, num_respo
             1. Casual friendly tone
             2. Use first names only ([Name])
             3. Match the user's message length/style
-            4. Can include emojis 😊
+            4. Can include emojis
             5. 10-20 words maximum
             Example: "Hey [Name], wanna grab coffee before class?""",
             
